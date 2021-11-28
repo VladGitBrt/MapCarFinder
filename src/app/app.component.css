@@ -1,0 +1,58 @@
+agm-map {
+  height: 100vh;
+  z-index: 1;
+}
+.test {
+  position: absolute;
+  width: 16%;
+  height: 95%;
+  right: 3%;
+  top: 2%;
+  z-index: 10;
+  background: #ffffff;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  min-height: 600px;
+  min-width: 200px;
+}
+.title {
+  width: 80%;
+  margin: 3%;
+  display: inline-block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.7rem;
+
+  color: #000000;
+}
+.search-input {
+  border: none;
+  width: 100%;
+  height: 5%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  background: #f2f2f2;
+  font-size: 1.3rem;
+  outline: none;
+}
+.car-container,
+.car-container-focused {
+  width: 100%;
+  border-bottom: 2px solid #ededed;
+  padding: 4%;
+  display: flex;
+  align-items: center;
+  transition: 0.1s linear;
+  cursor: pointer;
+}
+.car-container:hover {
+  background-color: yellow;
+  transition: 0.1s linear;
+}
+.car-container-focused {
+  background-color: yellow;
+  cursor: pointer;
+}
